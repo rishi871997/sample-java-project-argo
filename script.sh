@@ -2,7 +2,7 @@
 
 # Variables
 IMAGE="rs871997/sample-java-project" # Replace with your Docker Hub image name
-DEPLOYMENT_FILE="/home/rishi/Interview-Project/argocd-repo/sample-java-project-argo/deployment.yaml"    # Path to your deployment.yaml file
+DEPLOYMENT_FILE="/home/rishi/Interview-Project/argocd-repo/sample-java-project-argo/deploy/deployment.yaml"    # Path to your deployment.yaml file
 
 # Fetch the latest version from Docker Hub
 echo "Fetching the latest tag for $IMAGE from Docker Hub..."
